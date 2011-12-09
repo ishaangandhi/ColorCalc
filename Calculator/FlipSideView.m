@@ -36,13 +36,13 @@
     [super viewDidLoad];
     
     backgrounds = [[NSMutableArray alloc] init];
-    [backgrounds addObject:@"Hand Crafed Wood(DVQ)"];
-    [backgrounds addObject:@"Steel"];
-    [backgrounds addObject:@"Sleek Gray"];
-    [backgrounds addObject:@"Black Smudge"];
-    [backgrounds addObject:@"Jet Black"];
-    [backgrounds addObject:@"Gray Gradient"];    
-    [backgrounds addObject:@"Grainy Black"];    
+    [backgrounds addObject:@"Orange"];
+    [backgrounds addObject:@"Blue"];
+    [backgrounds addObject:@"Purple"];
+    [backgrounds addObject:@"Red"];
+    [backgrounds addObject:@"Turquoise"];
+    [backgrounds addObject:@"Gray"];    
+    [backgrounds addObject:@"Violet"];    
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)thePickerView {
@@ -67,25 +67,25 @@
     [UIView commitAnimations];
     switch (curBackground) {
         case 0:
-            [background setImage:[UIImage imageNamed:@"DVQ-HandcraftedWood.png"]];
+            [background setImage:[UIImage imageNamed:@"OrangeGrad.png"]];
             break;
         case 1:
-            [background setImage:[UIImage imageNamed:@"GraySmudge.png"]];
+            [background setImage:[UIImage imageNamed:@"BlueGrad.png"]];
             break;
         case 2:
-            [background setImage:[UIImage imageNamed:@"SleekGray.png"]];
+            [background setImage:[UIImage imageNamed:@"PurpleGrad.png"]];
             break;
         case 3:
-            [background setImage:[UIImage imageNamed:@"BlackSmudge.png"]];
+            [background setImage:[UIImage imageNamed:@"RedGrad.png"]];
             break;
         case 4:
-            [background setImage:[UIImage imageNamed:@"JetBlack.png"]];
+            [background setImage:[UIImage imageNamed:@"TurquoiseGrad.png"]];
             break;
         case 5:
             [background setImage:[UIImage imageNamed:@"GreyGradient.png"]];
             break;
         case 6:
-            [background setImage:[UIImage imageNamed:@"background.png"]];
+            [background setImage:[UIImage imageNamed:@"VioletGrad.png"]];
             break;
     }
     [UIView beginAnimations:nil context:NULL];

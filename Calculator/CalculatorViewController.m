@@ -40,32 +40,32 @@ static NSInteger imageNumber;
     [screen setText:[NSString stringWithFormat:@"%d", index]];
     switch (index) {
         case 0:
-            [backgroundImage setImage:[UIImage imageNamed:@"DVQ-HandcraftedWood.png"]];
-            [landBackgroundImage setImage:[UIImage imageNamed:@"DVQ-HandcraftedWood.png"]];
-            [screenImage setAlpha:0.70];
-            [landScreenImage setAlpha:0.70];
+            [backgroundImage setImage:[UIImage imageNamed:@"OrangeGrad.png"]];
+            [landBackgroundImage setImage:[UIImage imageNamed:@"OrangeGrad.png"]];
+            [screenImage setAlpha:0.8];
+            [landScreenImage setAlpha:0.8];
             break;
         case 1:
-            [backgroundImage setImage:[UIImage imageNamed:@"GraySmudge.png"]];
-            [landBackgroundImage setImage:[UIImage imageNamed:@"GraySmudge.png"]];
+            [backgroundImage setImage:[UIImage imageNamed:@"BlueGrad.png"]];
+            [landBackgroundImage setImage:[UIImage imageNamed:@"BlueGrad.png"]];
             [screenImage setAlpha:1.00];
             [landScreenImage setAlpha:1.00];
             break;
         case 2:
-            [backgroundImage setImage:[UIImage imageNamed:@"SleekGray.png"]];
-            [landBackgroundImage setImage:[UIImage imageNamed:@"SleekGray.png"]];
+            [backgroundImage setImage:[UIImage imageNamed:@"PurpleGrad.png"]];
+            [landBackgroundImage setImage:[UIImage imageNamed:@"PurpleGrad.png"]];
             [screenImage setAlpha:1.00];
             [landScreenImage setAlpha:1.00];
             break;
         case 3:
-            [backgroundImage setImage:[UIImage imageNamed:@"BlackSmudge.png"]];
-            [landBackgroundImage setImage:[UIImage imageNamed:@"BlackSmudge.png"]];
+            [backgroundImage setImage:[UIImage imageNamed:@"RedGrad.png"]];
+            [landBackgroundImage setImage:[UIImage imageNamed:@"RedGrad.png"]];
             [screenImage setAlpha:1.00];
             [landScreenImage setAlpha:1.00];
             break;
         case 4:
-            [backgroundImage setImage:[UIImage imageNamed:@"JetBlack.png"]];
-            [landBackgroundImage setImage:[UIImage imageNamed:@"JetBlack.png"]];
+            [backgroundImage setImage:[UIImage imageNamed:@"TurquoiseGrad.png"]];
+            [landBackgroundImage setImage:[UIImage imageNamed:@"TurquoiseGrad.png"]];
             [screenImage setAlpha:1.00];
             [landScreenImage setAlpha:1.00];
             
@@ -77,8 +77,8 @@ static NSInteger imageNumber;
             [landScreenImage setAlpha:1.00];
             break;
         case 6:
-            [backgroundImage setImage:[UIImage imageNamed:@"background.png"]];
-            [landBackgroundImage setImage:[UIImage imageNamed:@"background.png"]];
+            [backgroundImage setImage:[UIImage imageNamed:@"VioletGrad.png"]];
+            [landBackgroundImage setImage:[UIImage imageNamed:@"VioletGrad.png"]];
             [screenImage setAlpha:1.00];
             [landScreenImage setAlpha:1.00];
             
