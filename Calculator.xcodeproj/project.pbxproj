@@ -15,7 +15,7 @@
 		B80686CF148BD9CB009E2278 /* VioletGrad.png in Resources */ = {isa = PBXBuildFile; fileRef = B80686C9148BD9CB009E2278 /* VioletGrad.png */; };
 		B82BE28C1416D5E700ECDB15 /* blue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B82BE28B1416D5E700ECDB15 /* blue_button.png */; };
 		B82BE2921416D88600ECDB15 /* brown_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B82BE2911416D88600ECDB15 /* brown_button.png */; };
-		B83F33B51398574700DEFE04 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B83F33B41398574700DEFE04 /* icon.png */; };
+		B837A0401493CEEA0038153F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B837A03F1493CEEA0038153F /* icon.png */; };
 		B86DCB75139140D20093ABCA /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B86DCB74139140D20093ABCA /* screen.png */; };
 		B8B9490113908E4100297C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B9490013908E4100297C2F /* UIKit.framework */; };
 		B8B9490313908E4100297C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B9490213908E4100297C2F /* Foundation.framework */; };
@@ -42,7 +42,7 @@
 		B80686C9148BD9CB009E2278 /* VioletGrad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VioletGrad.png; sourceTree = "<group>"; };
 		B82BE28B1416D5E700ECDB15 /* blue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_button.png; sourceTree = "<group>"; };
 		B82BE2911416D88600ECDB15 /* brown_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown_button.png; sourceTree = "<group>"; };
-		B83F33B41398574700DEFE04 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B837A03F1493CEEA0038153F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		B86DCB74139140D20093ABCA /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		B8B948FC13908E4100297C2F /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B9490013908E4100297C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -91,7 +91,7 @@
 				B80686C7148BD9CB009E2278 /* RedGrad.png */,
 				B80686C8148BD9CB009E2278 /* TurquoiseGrad.png */,
 				B80686C9148BD9CB009E2278 /* VioletGrad.png */,
-				B83F33B41398574700DEFE04 /* icon.png */,
+				B837A03F1493CEEA0038153F /* icon.png */,
 				B8E2AF021415ABB3007C1245 /* orange_button.png */,
 				B8E2AF081416C395007C1245 /* black_button.png */,
 				B82BE28B1416D5E700ECDB15 /* blue_button.png */,
@@ -208,7 +208,6 @@
 				B8B9491A13908E4100297C2F /* CalculatorViewController.xib in Resources */,
 				B86DCB75139140D20093ABCA /* screen.png in Resources */,
 				B8EDD122139202E500E4F1AA /* FlipSideView.xib in Resources */,
-				B83F33B51398574700DEFE04 /* icon.png in Resources */,
 				B8E2AF051415ABB3007C1245 /* orange_button.png in Resources */,
 				B8E2AF091416C395007C1245 /* black_button.png in Resources */,
 				B82BE28C1416D5E700ECDB15 /* blue_button.png in Resources */,
@@ -220,6 +219,7 @@
 				B80686CD148BD9CB009E2278 /* RedGrad.png in Resources */,
 				B80686CE148BD9CB009E2278 /* TurquoiseGrad.png in Resources */,
 				B80686CF148BD9CB009E2278 /* VioletGrad.png in Resources */,
+				B837A0401493CEEA0038153F /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
